@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogoLink /> Should match snapshot image 1`] = `
+@media (max-width:768px) {
+
+}
+
+<img
+  alt="Lucifer"
+  src="assets/images/logo.svg"
+/>
+`;
+
+exports[`<LogoLink /> Should match snapshot text 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0 > img {
+  height: 3rem;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+  class="c0"
+  href="http://localhost"
+>
+  <span>
+    Lucifer
+  </span>
+</a>
+`;

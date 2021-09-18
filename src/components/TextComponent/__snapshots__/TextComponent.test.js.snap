@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextComponent /> Should match with snapshot 1`] = `
+.c0 {
+  font-size: 1.6rem;
+}
+
+<div
+  class="c0"
+>
+  Lorem ipsaum
+</div>
+`;
