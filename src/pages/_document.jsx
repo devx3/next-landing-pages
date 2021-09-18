@@ -8,10 +8,12 @@ export default class MyDocument extends Document {
 
     try {
       ctx.renderPage = () =>
+        /* eslint-disable */
         originalRenderPage({
           enhanceApp: (App) => (props) =>
             sheet.collectStyles(<App {...props} />),
         });
+      /* eslint-enable */
 
       const initialProps = await Document.getInitialProps(ctx);
       return {
