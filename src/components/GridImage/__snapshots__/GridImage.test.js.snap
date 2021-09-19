@@ -68,7 +68,7 @@ exports[`<GridImage /> Should render with default values 1`] = `
 <div>
   <div
     class="c0"
-    id="id-1995-6943881692423"
+    id="id-8746-02980921188"
   >
     <div
       class="c1"
@@ -208,7 +208,7 @@ exports[`<GridImage /> Should render with no grid 1`] = `
 <div>
   <div
     class="c0"
-    id="id-196-77678018823252"
+    id="id-6197-5372357541"
   >
     <div
       class="c1"
