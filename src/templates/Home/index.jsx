@@ -11,9 +11,9 @@ import config from '../../config';
 
 export const Home = ({ data }) => {
   data = data[0];
-
   const { menu, sections, footerHtml, title } = data;
   const { links, text, link, srcImg } = menu;
+
   return (
     <Base
       links={links}
