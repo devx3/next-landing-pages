@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import { theme } from '../styles/theme';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -43,6 +44,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           />
+          <meta name="theme-color" content={theme.colors.primaryColor} />
         </Head>
         <body>
           <Main />
