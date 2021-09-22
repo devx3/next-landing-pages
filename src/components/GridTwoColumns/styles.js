@@ -31,5 +31,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  ${() => css``}
+  ${() => css`
+    max-width: 100%;
+  `}
 `;
