@@ -90,7 +90,7 @@ exports[`<GridText /> Should render with background 1`] = `
 <div>
   <div
     class="c0"
-    id="id-2081-6901732555593"
+    id="id-3969-303180307042"
   >
     <div
       class="c1"
@@ -268,7 +268,7 @@ exports[`<GridText /> Should render with default values 1`] = `
 <div>
   <div
     class="c0"
-    id="id-8869-414568776901"
+    id="id-9423-990309426232"
   >
     <div
       class="c1"
@@ -446,7 +446,7 @@ exports[`<GridText /> Should render with grid 1`] = `
 <div>
   <div
     class="c0"
-    id="id-6210-654773214983"
+    id="id-2636-982295342831"
   >
     <div
       class="c1"
@@ -624,7 +624,7 @@ exports[`<GridText /> Should render with no background 1`] = `
 <div>
   <div
     class="c0"
-    id="id-6594-622150994731"
+    id="id-6792-9334006245435"
   >
     <div
       class="c1"
@@ -772,7 +772,7 @@ exports[`<GridText /> Should render with no grid 1`] = `
 <div>
   <div
     class="c0"
-    id="id-3960-2863461638194"
+    id="id-4207-025336952477"
   >
     <div
       class="c1"

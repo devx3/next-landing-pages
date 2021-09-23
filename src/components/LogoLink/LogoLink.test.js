@@ -8,6 +8,22 @@ describe('<LogoLink />', () => {
     const link = screen.getByText('Lucifer').parentNode;
     expect(link).toHaveAttribute('href', 'http://localhost');
   });
+  it('Should render with internal link and text', () => {
+    renderTheme(<LogoLink text="Lucifer" link="/target" />);
+    const link = screen.getByText('Lucifer').parentNode;
+    expect(link).toHaveAttribute('href', '/target');
+  });
+  it('Should render with internal link image', () => {
+    renderTheme(
+      <LogoLink
+        text="Lucifer"
+        link="/target"
+        srcImg="assets/images/logo.svg"
+      />,
+    );
+    const link = screen.getByAltText('Lucifer').parentNode;
+    expect(link).toHaveAttribute('href', '/target');
+  });
   it('Should render a image with a link', () => {
     renderTheme(
       <LogoLink

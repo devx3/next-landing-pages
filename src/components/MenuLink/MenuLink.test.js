@@ -9,6 +9,10 @@ describe('<MenuLink />', () => {
     const link = screen.getByRole('link', { name: 'Link' });
     expect(link).toHaveAttribute('target', '_self');
   });
+  it('Should render with with a Internal Link', () => {
+    renderTheme(<MenuLink link="/target">Link</MenuLink>);
+    screen.getByRole('link', { href: '/target' });
+  });
   it('Should render a link to open in a new tab', () => {
     renderTheme(
       <MenuLink link="http://localhost" newTab={true}>

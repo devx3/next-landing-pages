@@ -21,6 +21,10 @@ exports[`<GridTwoColumns /> Should render two columns grid 1`] = `
   margin-bottom: 3.2rem;
 }
 
+.c7 {
+  max-width: 100%;
+}
+
 .c0 {
   background: #FFFFFF;
   color: #0A1128;
@@ -69,7 +73,7 @@ exports[`<GridTwoColumns /> Should render two columns grid 1`] = `
 <div>
   <div
     class="c0"
-    id="id-7221-64076213073"
+    id="id-8150-96400122929"
   >
     <div
       class="c1"
@@ -101,7 +105,7 @@ exports[`<GridTwoColumns /> Should render two columns grid 1`] = `
         >
           <img
             alt="Hello GridTwoColumns"
-            class=""
+            class="c7"
             src="assets/images/javascript.svg"
           />
         </div>
@@ -130,6 +134,10 @@ exports[`<GridTwoColumns /> Should render two columns grid darkMode 1`] = `
 
 .c3 .c4 {
   margin-bottom: 3.2rem;
+}
+
+.c7 {
+  max-width: 100%;
 }
 
 .c0 {
@@ -178,7 +186,7 @@ exports[`<GridTwoColumns /> Should render two columns grid darkMode 1`] = `
 <div>
   <div
     class="c0"
-    id="id-7281-254584276117"
+    id="id-5133-030574699164"
   >
     <div
       class="c1"
@@ -210,7 +218,7 @@ exports[`<GridTwoColumns /> Should render two columns grid darkMode 1`] = `
         >
           <img
             alt="Hello GridTwoColumns"
-            class=""
+            class="c7"
             src="assets/images/javascript.svg"
           />
         </div>
